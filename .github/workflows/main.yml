@@ -1,8 +1,8 @@
 name: Check and Build
 
 env:
-  kernel_repository: asf1985/android_kernel_smartisan_sdm710
-  kernel_branch: mkp
+  kernel_repository: LineageOS/android_kernel_xiaomi_sdm7100
+  kernel_branch: lineage-22.1
   device: ocean
   clang_version: r487747c
   defconfig: mokee_ocean_defconfig
