@@ -1,13 +1,11 @@
 name: Check and Build
 
 env:
-  kernel_repository: LineageOS/android_kernel_xiaomi_sdm845
-  kernel_branch: lineage-21
-  device: dipper
+  kernel_repository: MoKee/android_kernel_smartisan_sdm710
+  kernel_branch: mkp
+  device: ocean
   clang_version: r487747c
-  defconfig: |
-    vendor/xiaomi/mi845_defconfig
-    vendor/xiaomi/dipper.config
+  defconfig: mokee_ocean_defconfig
   kernel_patch: |
     allow-init-exec-ksud-under-nosuid.patch
     backport-path-umount.patch
