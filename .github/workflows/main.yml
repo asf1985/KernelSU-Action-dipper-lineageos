@@ -1,7 +1,7 @@
 name: Check and Build
 
 env:
-  kernel_repository: https://github.com/MoKee/android_kernel_smartisan_sdm710
+  kernel_repository: MoKee/android_kernel_smartisan_sdm710
   kernel_branch: mkp
   device: ocean
   clang_version: r365631c
