@@ -4,7 +4,7 @@ env:
   kernel_repository: https://github.com/MoKee/android_kernel_smartisan_sdm710
   kernel_branch: mkp
   device: ocean
-  clang_version: r487747c
+  clang_version: r365631c
   defconfig: mokee_ocean_defconfig
   kernel_patch: |
     allow-init-exec-ksud-under-nosuid.patch
