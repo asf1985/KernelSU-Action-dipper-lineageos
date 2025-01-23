@@ -1,11 +1,11 @@
 name: Check and Build
 
 env:
-  kernel_repository: LineageOS/android_kernel_xiaomi_sdm710
-  kernel_branch: lineage-22.1
+  kernel_repository: asf1985/android_kernel_smartisan_osborn
+  kernel_branch: osborn-q-eas
   device: ocean
   clang_version: r487747c
-  defconfig: sdm845_defconfig
+  defconfig: osborn_defconfig
   kernel_patch: |
   kernelsu_patch: |
 
