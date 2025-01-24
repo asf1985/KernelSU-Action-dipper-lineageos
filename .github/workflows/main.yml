@@ -4,7 +4,7 @@ env:
   kernel_repository: MoKee/android_kernel_smartisan_sdm710
   kernel_branch: mko-mr1
   device: sdm710
-  clang_version: r353983c
+  clang_version: r383902b
   defconfig: mokee_ocean_defconfig
   kernel_patch: |
   kernelsu_patch: |
