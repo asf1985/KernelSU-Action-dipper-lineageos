@@ -1,11 +1,11 @@
 name: Check and Build
 
 env:
-  kernel_repository: asf1985/android_kernel_smartisan_osborn
-  kernel_branch: osborn-q-eas
-  device: ocean
+  kernel_repository: LineageOS/android_kernel_lenovo_sdm710
+  kernel_branch: lineage-21
+  device: sdm710
   clang_version: r487747c
-  defconfig: osborn_defconfig
+  defconfig: kunlun2_defconfig
   kernel_patch: |
   kernelsu_patch: |
 
