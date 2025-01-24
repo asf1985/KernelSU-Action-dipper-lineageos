@@ -1,11 +1,11 @@
 name: Check and Build
 
 env:
-  kernel_repository: LineageOS/android_kernel_oneplus_msm8998
-  kernel_branch: lineage-21
-  device: msm8998
+  kernel_repository: MoKee/android_kernel_smartisan_sdm710
+  kernel_branch: mko-mr1
+  device: sdm710
   clang_version: r487747c
-  defconfig: lineage_oneplus5_defconfig
+  defconfig: mokee_ocean_defconfig
   kernel_patch: |
   kernelsu_patch: |
 
