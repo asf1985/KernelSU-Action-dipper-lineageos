@@ -20,7 +20,7 @@ on:
 jobs:
   check_kernelsu_update:
     name: Check KernelSU update
-    runs-on: Ubuntu 18.04.6
+    runs-on: Ubuntu 22.04
     steps:
       - name: Check KernelSU version
         id: check_kernelsu_version
