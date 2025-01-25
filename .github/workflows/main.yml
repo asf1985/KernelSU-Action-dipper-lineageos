@@ -1,8 +1,8 @@
 name: Check and Build
 
 env:
-  kernel_repository: MoKee/android_kernel_smartisan_sdm710
-  kernel_branch: mko-mr1
+  kernel_repository: SmartisanTech/SmartisanOS_Kernel_Source
+  kernel_branch: U2Pro2S-Kernel
   device: sdm710
   clang_version: r522817
   defconfig: sdm670-perf_defconfig
