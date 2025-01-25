@@ -5,7 +5,7 @@ env:
   kernel_branch: mko-mr1
   device: sdm710
   clang_version: r522817
-  defconfig: mokee_ocean_defconfig
+  defconfig: sdm670-perf_defconfig
   kernel_patch: |
   kernelsu_patch: |
 
